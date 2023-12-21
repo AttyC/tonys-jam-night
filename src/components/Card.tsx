@@ -1,5 +1,3 @@
-import IMAGES from '../images/Images';
-
 const Card = () => {
     return (
         <section className="card-bg bg-blend-darken border-b-2 border-double border-b-orange-700">
