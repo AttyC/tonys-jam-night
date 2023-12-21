@@ -12,6 +12,10 @@ export default {
             fontFamily: {
                 punkkid: ['PUNKKID', 'cursive'],
                 nineteeneighty: ['nineteeneighty', 'cursive'],
+                rubikdoodleshadow: ['rubikdoodleshadow', 'sans serif'],
+                rubikdoodletriangle: ['rubikdoodletriangle', 'sans serif'],
+                montserrat: ['montserrat', 'sans serif'],
+                alfaslabone: ['alfaslabone', 'cursive'],
             },
         },
         maxWidth: {

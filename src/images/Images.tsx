@@ -5,9 +5,14 @@ const IMAGES = {
     // ).href,
     logoDarkTransparent: new URL('./buglehorn.webp', import.meta.url).href,
     logoLightTransparent: new URL(
-        './Project_Zebra_transparent_light.png',
+        './tonys_function_junction-logo-white.png',
         import.meta.url,
     ).href,
+    guitarPlayer: new URL(
+        './male-acoustic-guitar-player-in-pale-light.png',
+        import.meta.url,
+    ).href,
+    mic: new URL('./simple-microphone.jpeg', import.meta.url).href,
 };
 
 // eslint-disable-next-line react-refresh/only-export-components

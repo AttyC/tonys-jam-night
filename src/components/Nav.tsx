@@ -1,21 +1,28 @@
-import { Link } from 'react-router-dom';
-
 const Nav = () => {
     return (
         <nav className="pr-6">
-            <ul className="sm:flex sm:space-x-6 text-xl">
-                <li>
-                    <a href="#top" className="nav-link text-white">
+            <ul className="flex text-sm md:text-lg uppercase tracking-wide">
+                <li className="mx-4 hidden md:block">
+                    <a
+                        href="#top"
+                        className="nav-link text-white font-semibold"
+                    >
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="#jam" className="nav-link text-white">
-                        The Jam
+                <li className="mx-4">
+                    <a
+                        href="#jam"
+                        className="nav-link text-white font-semibold"
+                    >
+                        Music Jam
                     </a>
                 </li>
-                <li>
-                    <a href="#faq" className="nav-link text-white">
+                <li className="mx-4">
+                    <a
+                        href="#faqs"
+                        className="nav-link text-white font-semibold"
+                    >
                         FAQs
                     </a>
                 </li>

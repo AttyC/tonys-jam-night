@@ -24,25 +24,70 @@
     font-family: 'nineteeneighty';
     src: url('../fonts/1980portable.otf');
 }
+@font-face {
+    font-family: 'punkkid';
+    src: url('../fonts/punkkid.ttf');
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'rubikdoodleshadow';
+    src: url('../fonts/RubikDoodleShadow-Regular.ttf');
+}
+@font-face {
+    font-family: 'rubikdoodletriangle';
+    src: url('../fonts/RubikDoodleTriangles-Regular.ttf');
+}
+@font-face {
+    font-family: 'alfaslabone';
+    src: url('../fonts/AlfaSlabOne-Regular.ttf');
+}
 a {
     font-weight: 500;
     color: #646cff;
     text-decoration: inherit;
+    scroll-behavior: smooth;
 }
 
 a:hover {
-    color: #09814a;
+    color: rgb(249 115 22);
+    text-decoration: underline;
 }
-
+html,
+header {
+    background-color: #281e15;
+    background: linear-gradient(
+        63deg,
+        rgba(0, 0, 0, 1) 39%,
+        rgba(29, 28, 22, 1) 66%,
+        rgba(34, 29, 23, 0.9458377100840336) 94%
+    );
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    /* background-color: #281e15;
+    background: linear-gradient(
+        63deg,
+        rgba(0, 0, 0, 1) 39%,
+        rgba(29, 28, 22, 1) 66%,
+        rgba(34, 29, 23, 0.9458377100840336) 94%
+    ); */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 main {
     min-height: 100vh;
+    margin-top: 5rem;
 }
 h1 {
-    font-size: 3.2em;
+    font-size: 1.5rem;
     line-height: 1.1;
 }
 h1,
@@ -56,7 +101,6 @@ input::placeholder,
 input,
 nav,
 footer {
-    font-family: 'Staatliches', cursive;
     letter-spacing: 0.04rem;
 }
 
@@ -65,7 +109,7 @@ button {
     padding: 0.4em 0.8em;
     font-size: 1.1em;
     font-weight: 400;
-    font-family: 'Staatliches', cursive;
+    /* font-family: 'Staatliches', cursive; */
     letter-spacing: 0.04rem;
     background-color: #1a1a1a;
     cursor: pointer;
@@ -82,7 +126,7 @@ button:focus,
 button:hover,
 button:focus-visible,
 input:focus {
-    outline: 4px auto #e94f37;
+    outline: 4px auto rgb(234 88 12);
 }
 
 @media (prefers-color-scheme: light) {
@@ -90,11 +134,6 @@ input:focus {
         /* color: #213547; */
         background-color: #ffffff;
     }
-
-    a:hover {
-        color: #e94f37;
-    }
-
     button {
         background-color: #f9f9f9;
     }
@@ -147,4 +186,37 @@ button:hover {
 label {
     color: white;
     max-width: 28rem;
+}
+
+.card-bg {
+    background-image: url(/img/drums-overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    @media only screen and (min-width: 600px) {
+        height: 70vh;
+    }
+}
+
+.shadow {
+    border: 2px solid;
+    box-shadow: 6px 4px rgb(224, 95, 3);
+}
+
+.max65 {
+    max-width: 65%;
+}
+.hero-title {
+    font-size: 1.5rem;
+
+    line-height: 1.35;
+    @media only screen and (min-width: 600px) {
+        font-size: 3.5rem;
+        max-width: 45%;
+        margin: auto;
+    }
 }
