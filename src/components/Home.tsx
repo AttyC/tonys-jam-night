@@ -18,7 +18,7 @@ const Home = () => {
                     </p>
                 </section>
                 <section
-                    id="whats-on"
+                    id="jam"
                     className=" flex justify-center align-middle pt-8 pb-6"
                 >
                     <h2
@@ -30,7 +30,7 @@ const Home = () => {
                 </section>
 
                 <section
-                    id="jam"
+                    // id="jam"
                     className="divider flex justify-center align-middle py-4 md:py-8"
                 >
                     <h2
