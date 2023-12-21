@@ -5,13 +5,13 @@ import { Footer } from './Footer';
 
 const Layout = () => {
     return (
-        <div className="bg-zinc-900">
+        <>
             <Header />
             <main className="">
                 <Outlet />
             </main>
             <Footer />
-        </div>
+        </>
     );
 };
 
