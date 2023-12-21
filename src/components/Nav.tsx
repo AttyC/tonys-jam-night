@@ -5,31 +5,19 @@ const Nav = () => {
         <nav className="pr-6">
             <ul className="sm:flex sm:space-x-6 text-xl">
                 <li>
-                    <Link to="/" className="nav-link text-white">
+                    <a href="#top" className="nav-link text-white">
                         Home
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="/latest" className="nav-link text-white">
-                        Latest
-                    </Link>
+                    <a href="#jam" className="nav-link text-white">
+                        The Jam
+                    </a>
                 </li>
                 <li>
-                    <Link to="/upcoming" className="nav-link text-white">
-                        Upcoming
-                    </Link>
-                </li>
-
-                <li>
-                    <Link to="/genres" className="nav-link text-white">
-                        Genres
-                    </Link>
-                </li>
-
-                <li>
-                    <Link to="/health" className="nav-link text-white">
-                        Health
-                    </Link>
+                    <a href="#faq" className="nav-link text-white">
+                        FAQs
+                    </a>
                 </li>
             </ul>
         </nav>
