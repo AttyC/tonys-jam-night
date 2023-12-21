@@ -6,6 +6,13 @@ export default {
             outline: {
                 green: '2px solid #09814A',
             },
+            colours: {
+                dark: '#231e18',
+            },
+            fontFamily: {
+                punkkid: ['PUNKKID', 'cursive'],
+                nineteeneighty: ['nineteeneighty', 'cursive'],
+            },
         },
         maxWidth: {
             overview: '13rem',

@@ -9,7 +9,7 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #231e18;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: 'nineteeneighty';
+    src: url('../fonts/1980portable.otf');
+}
 a {
     font-weight: 500;
     color: #646cff;
@@ -83,7 +87,7 @@ input:focus {
 
 @media (prefers-color-scheme: light) {
     :root {
-        color: #213547;
+        /* color: #213547; */
         background-color: #ffffff;
     }
 

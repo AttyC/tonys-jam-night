@@ -5,9 +5,9 @@ import { Footer } from './Footer';
 
 const Layout = () => {
     return (
-        <div className="lg:p-6">
+        <div className="bg-zinc-900">
             <Header />
-            <main className="bg-gray-800 px-8">
+            <main className="">
                 <Outlet />
             </main>
             <Footer />
