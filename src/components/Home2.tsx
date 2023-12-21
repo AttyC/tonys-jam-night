@@ -2,16 +2,16 @@ import Card from './Card';
 import FAQS from './FAQS';
 import IMAGES from '../images/Images';
 
-const Home = () => {
+const Home2 = () => {
     return (
         <>
             <Card />
             <section className="main md:w-8/12 md:mx-auto my-8 md:my-12 bg-gray-950">
                 <section className="welcome-message mx-4 md:mx-0 px-8 py-8 bg-gray-100 text-gray-950">
-                    <h1 className="description text-sm pb-4 md:text-xl font-semibold text-center">
+                    <h1 className="description text-sm pb-4 md:text-2xl font-semibold text-center">
                         Welcome to Tony's Function Junction 🎸
                     </h1>{' '}
-                    <p className="text-sm font-semibold md:text-lg">
+                    <p className="text-sm font-semibold md:text-xl">
                         {' '}
                         Description - general - in your own tone of voice - bit
                         about you/ some kind of welcoming message
@@ -39,32 +39,51 @@ const Home = () => {
                     id="jam"
                     className="divider flex justify-center align-middle py-4 md:py-8"
                 >
-                    {/* <div className="text-white font-semibold text-center mx-6 md:flex hidden body-font font-nineteeneighty text-2xl">
+                    <div className="text-white font-semibold text-center mx-6 md:flex hidden body-font font-nineteeneighty text-2xl">
                         -----
-                    </div>{' '} */}
+                    </div>{' '}
                     <h2
                         className="description
                 font-semibold
                 "
                     >
-                        <span className="font-alfaslabone text-lg md:text-2xl tracking-widest">
+                        <span className="font-nineteeneighty text-lg md:text-2xl tracking-widest">
                             The Music Jam
                         </span>{' '}
                     </h2>
-                    {/* <div className=" text-white tracking-wide font-semibold md:flex hidden text-center mx-6 body-font font-nineteeneighty text-2xl">
+                    <div className=" text-white tracking-wide font-semibold md:flex hidden text-center mx-6 body-font font-nineteeneighty text-2xl">
                         -----
-                    </div> */}
+                    </div>
                 </section>
-
-                <p className="text-sm md:text-lg px-8">
+                {/* <section
+                    id="jam"
+                    className="divider flex justify-center align-middle py-8"
+                >
+                    <div className="text-white font-semibold text-center mx-6 md:flex hidden body-font font-nineteeneighty text-2xl">
+                        -----
+                    </div>{' '}
+                    <h2
+                        className="description
+                font-semibold
+                "
+                    >
+                        <span className="font-nineteeneighty text-6xl tracking-widest">
+                            The Music Jam
+                        </span>{' '}
+                    </h2>
+                    <div className=" text-white tracking-wide font-semibold md:flex hidden text-center mx-6 body-font font-nineteeneighty text-2xl">
+                        -----
+                    </div>
+                </section> */}
+                <p className="text-sm md:text-xl px-8">
                     Come along and play songs with other musicians / support/
                     mix of levels, all welcome etc
                 </p>
                 <section className="who-its-for p-8 bg-gray-950">
-                    <h4 className="description md:text-xl py-4 font-semibold">
+                    <h4 className="description md:text-2xl py-4 font-semibold">
                         Who it's for
                     </h4>
-                    <p className="text-sm md:text-lg">blah blah blah</p>
+                    <p className="text-sm md:text-xl">blah blah blah</p>
                 </section>
                 {/* <div className="w-full text-white tracking-wide font-semibold text-center my-8 body-font font-nineteeneighty  text-2xl">
                     ----------------------------------------
@@ -77,14 +96,14 @@ const Home = () => {
                     />
                 </section>
                 <section className="how-it-works p-8">
-                    <h4 className="description md:text-xl py-4 font-semibold">
+                    <h4 className="description md:text-2xl py-4 font-semibold">
                         How it works
                     </h4>
-                    <p className="text-sm md:text-lg">Equipment supplied</p>
-                    <p className="text-sm md:text-lg">
+                    <p className="text-sm md:text-xl">Equipment supplied</p>
+                    <p className="text-sm md:text-xl">
                         Accompaniment available - House Band
                     </p>
-                    <p className="text-sm md:text-lg">
+                    <p className="text-sm md:text-xl">
                         CHECK OUT THESE RULES: <br />{' '}
                         <a href="http://www.leytonstonebluesjam.co.uk/essential_fyi.shtml">
                             HOUSE RULES
@@ -133,9 +152,9 @@ const Home = () => {
                         <p className="text-sm md:text-xl">
                             <a href="tel:07000 000000">Call / WhatsApp???</a>
                         </p>
-                        <p className="text-sm md:text-lg">Instagram</p>
-                        <p className="text-sm md:text-lg">Email link</p>
-                        <p className="text-sm md:text-lg">
+                        <p className="text-sm md:text-xl">Instagram</p>
+                        <p className="text-sm md:text-xl">Email link</p>
+                        <p className="text-sm md:text-xl">
                             Link to pub directions
                         </p>
                     </div>
@@ -151,4 +170,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Home2;

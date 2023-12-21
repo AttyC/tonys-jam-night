@@ -15,7 +15,7 @@ const Card = () => {
                 Tony's Function <br />
                 Junction
             </span> */}
-            <p className="subtitle md:text-xl mt-4 tracking-wider uppercase text-orange-400 bg-gray-900 font-semibold max65">
+            <p className="subtitle md:text-xl mt-4 tracking-wider text-center uppercase text-orange-400 bg-gray-900 font-semibold max65">
                 Music jams and events in Charlton
             </p>
         </section>
