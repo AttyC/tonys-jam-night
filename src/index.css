@@ -29,8 +29,8 @@
     src: url('../fonts/punkkid.ttf');
 }
 @font-face {
-    font-family: 'montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+    font-family: 'varelaround';
+    src: url('../fonts/VarelaRound-Regular.ttf');
 }
 @font-face {
     font-family: 'rubikdoodleshadow';
@@ -191,7 +191,7 @@ label {
 }
 
 .card-bg {
-    background-image: url(/img/drums-overlay.png);
+    background-image: url(/img/drums.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -199,8 +199,23 @@ label {
     justify-content: center;
     align-items: center;
     height: 40vh;
-    @media only screen and (min-width: 600px) {
-        height: 70vh;
+    @media only screen and (min-width: 768px) {
+        height: 60vh;
+    }
+}
+
+.img-divider {
+    background-image: url(/img/simple-microphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    @media only screen and (min-width: 1024px) {
+        height: 30vh;
     }
 }
 
@@ -214,11 +229,9 @@ label {
 }
 .hero-title {
     font-size: 1.5rem;
-
     line-height: 1.35;
     @media only screen and (min-width: 600px) {
-        font-size: 3.5rem;
+        font-size: 3.65rem;
         max-width: 45%;
-        margin: auto;
     }
 }
