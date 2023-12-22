@@ -106,6 +106,10 @@ footer {
     letter-spacing: 0.04rem;
 }
 
+span.icons {
+    display: block;
+}
+
 button {
     border-radius: 8px;
     padding: 0.4em 0.8em;

@@ -5,6 +5,7 @@ import Title from './Title';
 // import FAQS from './FAQS';
 import IMAGES from '../images/Images';
 import EmailIcon from './EmailIcon';
+import MusicIcons from './MusicIcons';
 
 const Home = () => {
     return (
@@ -33,7 +34,7 @@ const Home = () => {
                                 Singers, microphones will be supplied.
                             </li>
                         </ul>
-                        <span className="py-2 text-sm">🎸🥁 🎤 🎹 </span>
+                        <MusicIcons />
                     </section>
                     <section className="text-center">
                         <Title id="jam" title="The Jam"></Title>
@@ -59,9 +60,7 @@ const Home = () => {
                                 Full mackie PA with Foldback and vocal mics
                             </li>
                         </ul>
-                        <span className="py-2 text-sm text-center">
-                            🎸🥁 🎤 🎹{' '}
-                        </span>
+                        <MusicIcons />
                     </section>
                     {/* <section className="img-divider mx-4"></section> */}
                     {/* <section className="how-it-works p-8">
