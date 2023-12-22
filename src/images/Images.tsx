@@ -8,7 +8,7 @@ const IMAGES = {
         './male-acoustic-guitar-player-in-pale-light.png',
         import.meta.url,
     ).href,
-    mic: new URL('./simple-microphone.webp', import.meta.url).href,
+    whatsApp: new URL('./WhatsAppButtonWhiteSmall.png', import.meta.url).href,
 };
 
 // eslint-disable-next-line react-refresh/only-export-components

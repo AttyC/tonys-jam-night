@@ -191,9 +191,10 @@ label {
 }
 
 .card-bg {
-    background-image: url(/img/drums.png);
+    background-image: url(/img/tonys-drums-overlay.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
