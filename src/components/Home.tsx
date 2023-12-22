@@ -5,6 +5,7 @@ import Title from './Title';
 // import FAQS from './FAQS';
 import IMAGES from '../images/Images';
 import EmailIcon from './EmailIcon';
+import PhoneIcon from './PhoneIcon';
 import MusicIcons from './MusicIcons';
 
 const Home = () => {
@@ -80,12 +81,13 @@ const Home = () => {
                     <FAQS /> */}
                     <Title id="contact" title="Contact"></Title>
                     <h3 className="text-center font-medium">
-                        Contact me for more information. I prefer WhatsApp as
-                        it's quicker!{' '}
+                        Contact me for more information on the Showcase or the
+                        Jam.
+                        <br /> I prefer WhatsApp as it's quicker!{' '}
                     </h3>
                     <section className="p-8">
-                        <ul>
-                            <li className="text-md md:text-lg  py-2">
+                        <ul className="flex justify-center">
+                            <li className="py-2">
                                 <a
                                     aria-label="Chat on WhatsApp"
                                     className="whatsApp"
@@ -94,19 +96,28 @@ const Home = () => {
                                     <img
                                         src={IMAGES.whatsApp}
                                         alt="Chat on WhatsApp"
-                                        className="w-36 md:w-56"
+                                        className="w-44 md:w-44"
                                     />
                                 </a>
                             </li>
-                            <li className="text-xs md:text-lg  py-2 flex align-middle">
+                            <li className=" py-2 ml-4 flex">
+                                <PhoneIcon />
+                                <a
+                                    className="font-semibold text-gray-100 self-center px-2"
+                                    href="tel:+447809083148"
+                                >
+                                    Phone
+                                </a>
+                            </li>
+                            <li className=" py-2 flex">
                                 <EmailIcon />
                                 <a
-                                    aria-label="Email Tony"
+                                    aria-label="Email"
                                     href="mailto:tonydooley59@gmail.com"
                                     className="font-semibold text-gray-100 self-center px-2"
                                 >
                                     {' '}
-                                    Email Tony{' '}
+                                    Email{' '}
                                 </a>
                             </li>
                         </ul>
@@ -176,11 +187,12 @@ const Home = () => {
                     <FAQS /> */}
                     <Title id="contact" title="Contact"></Title>
                     <h3 className="text-center font-medium">
-                        Contact me for more information. I prefer WhatsApp as
-                        it's quicker!{' '}
+                        Contact me for more information on the Showcase or the
+                        Jam.
+                        <br /> I prefer WhatsApp as it's quicker!{' '}
                     </h3>
                     <section className="p-8">
-                        <ul>
+                        <ul className="md:flex md:justify-center">
                             <li className="text-md md:text-lg  py-2">
                                 <a
                                     aria-label="Chat on WhatsApp"
@@ -190,19 +202,28 @@ const Home = () => {
                                     <img
                                         src={IMAGES.whatsApp}
                                         alt="Chat on WhatsApp"
-                                        className="w-36 md:w-56"
+                                        className="w-28 md:w-44"
                                     />
                                 </a>
                             </li>
-                            <li className="text-xs md:text-lg  py-2 flex align-middle">
+                            <li className="text-xs md:text-lg  py-2 ">
+                                <PhoneIcon />
+                                <a
+                                    className="font-semibold text-gray-100 self-center px-2"
+                                    href="tel:+447809083148"
+                                >
+                                    Phone
+                                </a>
+                            </li>
+                            <li className="text-xs md:text-md py-2 flex align-middle">
                                 <EmailIcon />
                                 <a
-                                    aria-label="Email Tony"
+                                    aria-label="Email"
                                     href="mailto:tonydooley59@gmail.com"
                                     className="font-semibold text-gray-100 self-center px-2"
                                 >
                                     {' '}
-                                    Email Tony{' '}
+                                    Email{' '}
                                 </a>
                             </li>
                         </ul>

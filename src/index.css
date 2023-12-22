@@ -67,6 +67,9 @@ header {
 html {
     scroll-behavior: smooth;
 }
+.scroll-section {
+    scroll-margin-top: 6rem;
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;

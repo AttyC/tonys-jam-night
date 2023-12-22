@@ -1,10 +1,18 @@
 const Nav = () => {
     return (
-        <nav className="pr-6">
+        <nav className="md: pr-6">
             <ul className="flex text-sm md:text-lg uppercase tracking-wide">
                 <li className="mx-4 hidden md:block">
                     <a href="/" className="nav-link text-white font-semibold">
                         Home
+                    </a>
+                </li>{' '}
+                <li className="mx-4">
+                    <a
+                        href="#showcase"
+                        className="nav-link text-white font-semibold"
+                    >
+                        Showcase
                     </a>
                 </li>
                 <li className="mx-4">
@@ -12,15 +20,15 @@ const Nav = () => {
                         href="#jam"
                         className="nav-link text-white font-semibold"
                     >
-                        Music Jam
+                        Jam
                     </a>
                 </li>
                 <li className="mx-4">
                     <a
-                        href="#faqs"
+                        href="#contact"
                         className="nav-link text-white font-semibold"
                     >
-                        FAQs
+                        Contact
                     </a>
                 </li>
             </ul>
