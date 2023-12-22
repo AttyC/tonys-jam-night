@@ -191,7 +191,7 @@ label {
 }
 
 .card-bg {
-    background-image: url(/img/drums.webp);
+    background-image: url(/img/drums.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -205,7 +205,7 @@ label {
 }
 
 .img-divider {
-    background-image: url(/img/simple-microphone.webp);
+    background-image: url(/img/simple-microphone.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
