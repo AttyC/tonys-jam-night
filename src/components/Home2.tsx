@@ -11,17 +11,6 @@ const Home2 = () => {
             <section className="main md:w-8/12 md:mx-auto  bg-gray-100 text-gray-950">
                 <Welcome />
                 <Title id="jam" title="The Music Jam"></Title>
-                {/* <section id="jam" className="py-4 md:p-8 mx-8 md:mx-0 ">
-                    <h2
-                        className="description
-                font-semibold font-alfaslabone
-                "
-                    >
-                        <span className="text-lg md:text-2xl tracking-widest">
-                            The Music Jam
-                        </span>{' '}
-                    </h2>
-                </section> */}
                 <p className="text-md md:text-lg px-8">
                     Come along and play songs with other musicians / support/
                     mix of levels, all welcome etc
