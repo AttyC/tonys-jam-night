@@ -9,7 +9,7 @@ const Nav = () => {
                 </li>
                 <li className="mx-4 md:block">
                     <a
-                        href="home2"
+                        href="/home2"
                         className="nav-link text-white font-semibold"
                     >
                         Home 2
