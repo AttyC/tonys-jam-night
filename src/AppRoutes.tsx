@@ -3,14 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Layout from './components/Layout';
 import NotFound from './components/NotFound';
-import Home2 from './components/Home2';
 
 const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
-                <Route path="home2" element={<Home2 />} />
                 {/* <Route path="genres" element={<Genres />} />
                 <Route path="person/:id" element={<PersonDetails />} />
                 <Route path="movie/:id" element={<MovieDetails />} />

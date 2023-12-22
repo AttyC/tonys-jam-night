@@ -7,14 +7,6 @@ const Nav = () => {
                         Home
                     </a>
                 </li>
-                <li className="mx-4 md:block">
-                    <a
-                        href="/home2"
-                        className="nav-link text-white font-semibold"
-                    >
-                        Home 2
-                    </a>
-                </li>
                 <li className="mx-4">
                     <a
                         href="#jam"
