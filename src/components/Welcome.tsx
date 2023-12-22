@@ -1,13 +1,43 @@
 const Welcome = () => (
-    <section className="welcome-message mx-4 md:mx-0 px-8 py-8 text-center">
-        <h1 className="font-alfaslabone text-md pb-4 md:text-3xl text-center">
-            🎹 🎤 🥁 🎸 Welcome! 🎸🥁 🎤 🎹
+    <section className="welcome-message mx-4 md:mx-0 px-8 pb-4 text-center">
+        <h1 className="font-punkkid text-md md:text-2xl text-center pt-6 flex flex-col">
+            {/* <span className="py-2">🎹 🎤 🥁 🎸</span> */}
+            Welcome! <span className="py-2 text-sm">🎸🥁 🎤 🎹 </span>
         </h1>{' '}
-        <p className="font-medium">
-            {' '}
-            Description - general - in your own tone of voice - bit about you/
-            some kind of welcoming message
+        <h2 className="font-semibold text-md text-lg py-4">
+            Hi, I’m Tony a local drummer, living in Charlton.
+        </h2>
+        <p>-------------------</p>
+        <p className="font-medium py-2">
+            I am organising a local music event in the Function Room at the
+            Bugle Horn Pub, 6 The Village , Charlton SE7 8UD. (See Map)
         </p>
+        <p className="font-medium py-2">
+            The event with be in two parts - the{' '}
+            <span className="font-semibold text-orange-400">showcase</span> and
+            the <span className="font-semibold text-orange-400">jam</span>.
+        </p>{' '}
+        <span className="py-2">🎸🥁 🎤 🎹 </span>
+        <p className="font-medium py-2">
+            I’m inviting local musicians and bands to come along and showcase
+            their music.
+        </p>
+        <p className="font-medium py-2">Covers and originals welcome.</p>
+        <p className="font-medium py-2">
+            Following that, a chance for all musicians to take part in a jam
+            with the house band.
+        </p>
+        <p className="font-medium py-2">All styles welcome.</p>
+        <span className="py-2">🎸🥁 🎤 🎹 </span>
+        <p className="font-semibold py-2">
+            Date & Time: 14th January 2023 from 4pm onwards
+        </p>
+        <p className="font-semibold py-2">
+            {' '}
+            Address: Bugle Horn Pub, 6 The Village , Charlton SE7 8UD
+        </p>
+        <p className="font-semibold py-2">Free entry plus full back line</p>
+        <p>-------------------</p>
     </section>
 );
 
