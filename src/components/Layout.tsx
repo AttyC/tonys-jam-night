@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <>
             <Header />
-            <main className="font-montserrat">
+            <main className="font-varelaround text-md md:text-lg">
                 <Outlet />
             </main>
             <Footer />
