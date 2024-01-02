@@ -32,7 +32,7 @@ const Welcome = () => (
         <p className="font-medium py-2">All styles welcome.</p>
         <MusicIcons />
         <p className="font-semibold py-2">
-            Date & Time: 14th January 2023 from 4pm onwards
+            Date & Time: Sunday 14th January 2023 from 4pm onwards
         </p>
         <p className="font-semibold py-2">
             {' '}
