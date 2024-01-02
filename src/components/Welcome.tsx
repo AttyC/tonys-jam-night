@@ -2,13 +2,13 @@ import MusicIcons from './MusicIcons';
 
 const Welcome = () => (
     <section className="welcome-message mx-4 md:mx-0 px-8 pb-4 text-center">
-        <h1 className="font-punkkid text-md md:text-3xl text-center pt-6 flex flex-col">
+        <h2 className="font-nineteeneighty text-4xl md:text-6xl text-center pt-6 flex flex-col tracking-wider">
             {/* <span className="py-2">🎹 🎤 🥁 🎸</span> */}
             Welcome!{' '}
             <span className="py-2 text-sm md:text-2xl">🎸🥁 🎤 🎹 </span>
-        </h1>{' '}
+        </h2>{' '}
         <h2 className="font-semibold text-md text-lg py-4">
-            Hi, I’m Tony a local drummer, living in Charlton.
+            Hi, I’m Tony, a local drummer, living in Charlton.
         </h2>
         <p>-------------------</p>
         <p className="font-medium py-2">
@@ -38,6 +38,14 @@ const Welcome = () => (
         <p className="font-semibold py-2">
             {' '}
             Address: Bugle Horn Pub, 6 The Village , Charlton SE7 8UD
+        </p>
+        <p>
+            <a
+                className="text-sm font-semibold"
+                href="https://maps.app.goo.gl/krZwstT3oqk9DpfY7"
+            >
+                Get Directions
+            </a>
         </p>
         <p className="font-semibold py-2">Free entry plus full back line</p>
         <p>-------------------</p>
