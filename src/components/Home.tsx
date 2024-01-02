@@ -1,8 +1,6 @@
 import Hero from './Hero';
 import Welcome from './Welcome';
 import Title from './Title';
-// import Subtitle from './Subtitle';
-// import FAQS from './FAQS';
 import IMAGES from '../images/Images';
 import EmailIcon from './EmailIcon';
 import PhoneIcon from './PhoneIcon';

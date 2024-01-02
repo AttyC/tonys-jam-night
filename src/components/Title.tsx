@@ -14,9 +14,7 @@ const Title: React.FC<TitleProps> = (props) => {
                 className="description text-4xl md:text-7xl text-orange-400 tracking-wider
                 text-center"
             >
-                {/* <span className="text-lg md:text-3xl "> */}
                 {title}
-                {/* </span>{' '} */}
             </h2>
         </section>
     );

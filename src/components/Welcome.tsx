@@ -3,7 +3,6 @@ import MusicIcons from './MusicIcons';
 const Welcome = () => (
     <section className="welcome-message mx-4 md:mx-0 px-8 pb-4 text-center">
         <h2 className="font-nineteeneighty text-4xl md:text-6xl text-center pt-6 flex flex-col tracking-wider">
-            {/* <span className="py-2">🎹 🎤 🥁 🎸</span> */}
             Welcome!{' '}
             <span className="py-2 text-sm md:text-2xl">🎸🥁 🎤 🎹 </span>
         </h2>{' '}

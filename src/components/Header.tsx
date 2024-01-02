@@ -1,8 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
 
-import IMAGES from '../images/Images';
-
 export const Header: React.FC = () => {
     return (
         <header className="top-0 left-0 w-full rounded-t text-white py-4 flex items-center justify-between border-b-2 border-double border-b-orange-400">
