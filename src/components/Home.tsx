@@ -15,22 +15,25 @@ const Home = () => {
                     <Welcome />
                     <section className="text-center text:lg md:text-xl">
                         <Title id="showcase" title="The Showcase"></Title>
-                        <p className="text-md md:text:lg md:text-xl px-4 pb-2 font-semibold text-center">
+                        <p className="text-md md:text:lg md:text-xl px-4 md:px-8 pb-2 font-semibold text-center">
                             Please contact me if you wish to do a few songs with
                             your band, or use the services of the house band!
                         </p>{' '}
-                        <ul>
+                        <ul className="px-8">
                             <li className="text-md md:text:lg md:text-xl px-4 py-2">
-                                Guitarists and bassists, just bring your
-                                guitars.
+                                <span className="font-semibold">
+                                    Guitarists and bassists
+                                </span>
+                                , just bring your guitars.
                             </li>
                             <li className="text-md md:text:lg md:text-xl px-4 py-2">
-                                Drummers need only bring sticks - full drum set
-                                supplied, including all breakables: snare,
-                                cymbals etc.
+                                <span className="font-semibold">Drummers</span>{' '}
+                                need only bring sticks - full drum set supplied,
+                                including all breakables: snare, cymbals etc.
                             </li>
                             <li className="text-md md:text:lg md:text-xl px-4 py-2">
-                                Singers, microphones will be supplied.
+                                <span className="font-semibold">Singers</span>,
+                                microphones will be supplied.
                             </li>
                         </ul>
                         <MusicIcons />
@@ -44,7 +47,7 @@ const Home = () => {
                         <h3 className="text-center font-medium uppercase py-3">
                             Back line equipment
                         </h3>
-                        <ul className="list-disc mx-2">
+                        <ul className="list-disc mx-2 md:flex md:flex-col md:justify-center md:items-center">
                             <li className="text-md md:text:lg md:text-xl px-4 py-2">
                                 Guitar and bass amps
                             </li>
