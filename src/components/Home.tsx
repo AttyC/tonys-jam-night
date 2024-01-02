@@ -87,7 +87,7 @@ const Home = () => {
                                 <PhoneIcon />
                                 <a
                                     className="font-semibold text-gray-100 self-center px-2"
-                                    href="tel:447809083148"
+                                    href="tel:447809073148"
                                 >
                                     Phone
                                 </a>
