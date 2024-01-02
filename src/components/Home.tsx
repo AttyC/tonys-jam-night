@@ -84,8 +84,8 @@ const Home = () => {
                         <br /> I prefer WhatsApp as it's quicker!{' '}
                     </h3>
                     <section className="p-8">
-                        <ul className="flex justify-center">
-                            <li className="py-2">
+                        <ul className="flex flex-col align-middle md:justify-center md:flex-row">
+                            <li className="py-2 flex justify-center">
                                 <a
                                     aria-label="Chat on WhatsApp"
                                     className="whatsApp"
@@ -95,20 +95,20 @@ const Home = () => {
                                     <img
                                         src={IMAGES.whatsApp}
                                         alt="Chat on WhatsApp"
-                                        className="w-44 md:w-44"
+                                        className="w-56 md:w-44"
                                     />
                                 </a>
                             </li>
-                            <li className=" py-2 ml-4 flex">
+                            <li className=" py-2 ml-4 flex justify-center">
                                 <PhoneIcon />
                                 <a
                                     className="font-semibold text-gray-100 self-center px-2"
-                                    href="tel:+447809083148"
+                                    href="tel:447809083148"
                                 >
                                     Phone
                                 </a>
                             </li>
-                            <li className=" py-2 flex">
+                            <li className=" py-2 flex justify-center">
                                 <EmailIcon />
                                 <a
                                     aria-label="Email"
