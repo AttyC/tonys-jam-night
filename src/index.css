@@ -236,10 +236,10 @@ label {
     max-width: 65%;
 }
 .hero-title {
-    font-size: 1.5rem;
+    font-size: 3rem;
     line-height: 1.35;
     @media only screen and (min-width: 600px) {
-        font-size: 3.65rem;
+        font-size: 5rem;
         max-width: 45%;
     }
 }
