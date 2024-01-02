@@ -1,12 +1,12 @@
 import MusicIcons from './MusicIcons';
 
 const Welcome = () => (
-    <section className="welcome-message mx-4 md:mx-0 px-8 pb-4 text-center">
+    <section className="welcome-message mx-4 md:mx-0 px-4 pb-6 text-xl text-center">
         <h2 className="font-nineteeneighty text-4xl md:text-6xl text-center pt-6 flex flex-col tracking-wider">
             Welcome!{' '}
             <span className="py-2 text-sm md:text-2xl">🎸🥁 🎤 🎹 </span>
         </h2>{' '}
-        <h2 className="font-semibold text-md text-lg py-4">
+        <h2 className="font-semibold text-md text-xl py-4">
             Hi, I’m Tony, a local drummer, living in Charlton.
         </h2>
         <p>-------------------</p>
@@ -40,7 +40,7 @@ const Welcome = () => (
         </p>
         <p>
             <a
-                className="text-sm font-semibold"
+                className=" uppercase text-sm font-semibold"
                 href="https://maps.app.goo.gl/krZwstT3oqk9DpfY7"
             >
                 Get Directions
