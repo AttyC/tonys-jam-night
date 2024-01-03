@@ -239,8 +239,12 @@ label {
 .hero-title {
     font-size: 3rem;
     line-height: 1.35;
+
     @media only screen and (min-width: 600px) {
         font-size: 5rem;
         max-width: 45%;
     }
+}
+.font-nineteeneighty {
+    letter-spacing: 4px;
 }
