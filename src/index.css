@@ -252,3 +252,7 @@ label {
 .font-nineteeneighty {
     letter-spacing: 4px;
 }
+.date-time {
+    width: fit-content;
+    margin: auto;
+}

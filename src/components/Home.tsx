@@ -13,34 +13,34 @@ const Home = () => {
                 <Hero />
                 <section className="main md:w-8/12 md:mx-auto  text-gray-100 bg-gray-950">
                     <Welcome />
-                    <section className="text-center text:lg md:text-xl">
+                    <section className="text-center text-lg">
                         <Title id="showcase" title="The Showcase"></Title>
-                        <p className="text-md md:text:lg md:text-xl px-4 md:px-8 pb-2 font-semibold text-center">
+                        <p className="text-md md:text-lg px-4 md:px-8 pb-2 font-semibold text-center">
                             Please contact me if you wish to do a few songs with
                             your band, or use the services of the house band!
                         </p>{' '}
                         <ul className="px-8">
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 <span className="font-semibold">
                                     Guitarists and bassists
                                 </span>
                                 , just bring your guitars.
                             </li>
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 <span className="font-semibold">Drummers</span>{' '}
                                 need only bring sticks - full drum set supplied,
                                 including all breakables: snare, cymbals etc.
                             </li>
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 <span className="font-semibold">Singers</span>,
                                 microphones will be supplied.
                             </li>
                         </ul>
                         <MusicIcons />
                     </section>
-                    <section className="p-8 text:lg md:text-xl">
+                    <section className="p-8 text-lg">
                         <Title id="jam" title="The Jam"></Title>
-                        <p className="text-md md:text:lg md:text-xl px-2 pb-2 font-semibold text-center">
+                        <p className="text-md md:text-lg px-2 pb-2 font-semibold text-center">
                             Here is a chance to jam and network with other
                             musicians and singers. Full back line supplied.
                         </p>{' '}
@@ -48,17 +48,17 @@ const Home = () => {
                             Back line equipment
                         </h3>
                         <ul className="list-disc mx-2 md:flex md:flex-col md:justify-center md:items-center">
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 Guitar and bass amps
                             </li>
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 Full Pearl drum kit with cymbals ( Zildian and
                                 Sabian )
                             </li>
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 Korg Krome piano synth with pedal
                             </li>
-                            <li className="text-md md:text:lg md:text-xl px-4 py-2">
+                            <li className="text-md md:text-lg px-4 py-2">
                                 Full mackie PA with Foldback and vocal mics
                             </li>
                         </ul>
@@ -70,7 +70,7 @@ const Home = () => {
                         Jam.
                         <br /> I prefer WhatsApp as it's quicker!{' '}
                     </h3>
-                    <section className="p-8 text:lg md:text-xl">
+                    <section className="p-8 text-lg">
                         <ul className="flex flex-col align-middle md:justify-center md:flex-row">
                             <li className="py-2 flex justify-center">
                                 <a

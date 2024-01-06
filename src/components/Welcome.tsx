@@ -1,7 +1,7 @@
 import MusicIcons from './MusicIcons';
 
 const Welcome = () => (
-    <section className="welcome-message mx-4 md:mx-0 px-4 pb-6 text:lg md:text-xl text-center">
+    <section className="welcome-message mx-4 md:mx-0 px-4 pb-6 text:lg  text-center">
         <h2 className="font-nineteeneighty text-4xl md:text-6xl text-center pt-6 flex flex-col tracking-wider">
             Welcome!{' '}
             <span className="py-2 text-sm md:text-2xl">🎸🥁 🎤 🎹 </span>
@@ -31,21 +31,25 @@ const Welcome = () => (
         </p>
         <p className="font-medium py-2">All styles welcome.</p>
         <MusicIcons />
-        <p className="font-semibold py-2">
-            Date & Time: Sunday 14th January 2024 from 4pm onwards
-        </p>
-        <p className="font-semibold py-2">
-            {' '}
-            Address: Bugle Horn Pub, 6 The Village , Charlton SE7 8UD
-        </p>
-        <p>
-            <a
-                className=" uppercase text-sm font-semibold"
-                href="https://maps.app.goo.gl/krZwstT3oqk9DpfY7"
-            >
-                Get Directions
-            </a>
-        </p>
+        <div className="date-time  my-8 p-4">
+            <p className="py-2">
+                <span className="font-semibold ">When:</span> Sunday 14th
+                January 2024 from 4pm onwards
+            </p>
+            <p className="py-2">
+                {' '}
+                <span className="font-semibold ">Where:</span> Bugle Horn Pub, 6
+                The Village , Charlton SE7 8UD
+            </p>
+            <p>
+                <a
+                    className=" uppercase text-sm font-semibold"
+                    href="https://maps.app.goo.gl/krZwstT3oqk9DpfY7"
+                >
+                    Get Directions
+                </a>
+            </p>
+        </div>
         <p className="font-semibold py-2">Free entry plus full back line</p>
         <p>-------------------</p>
     </section>
