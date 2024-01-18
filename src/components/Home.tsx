@@ -11,6 +11,9 @@ const Home = () => {
         <>
             <>
                 <Hero />
+                <div className="stamp bg-yellow-300 text-black text-center text-sm md:text-xl py-2 mb-4 font-semibold">
+                    Next session : Sunday 11 Feb from 5pm
+                </div>
                 <section className="main md:w-8/12 md:mx-auto  text-gray-100 bg-gray-950">
                     <Welcome />
                     <section className="text-center text-lg">

@@ -11,9 +11,7 @@ const Hero = () => {
             <p className="text-sm md:text-xl mt-4 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65">
                 Showcase + Jam Session in Charlton, SE7
             </p>
-            <p className="text-sm md:text-xl mt-2 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65">
-                Sunday 14 Jan 2024
-            </p>
+            <p className="text-sm md:text-xl mt-2 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65"></p>
         </section>
     );
 };

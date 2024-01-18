@@ -256,3 +256,29 @@ label {
     width: fit-content;
     margin: auto;
 }
+
+.stamp {
+    /* transform: rotate(12deg);
+    color: yellow;
+    font-size: 23rem;
+    font-weight: 700;
+    border: 0.25rem solid yellow;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-family: 'Courier';
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply; */
+
+    /* color: white;
+    font-size: 3rem;
+
+    background: url(/img/stamp-rect.png) no-repeat;
+    height: 400px;
+
+    background-size: contain;
+    transform: translate(4rem, 24rem) rotate(-12deg);
+    position: fixed; */
+}
