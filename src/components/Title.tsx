@@ -11,7 +11,7 @@ const Title: React.FC<TitleProps> = (props) => {
             className="scroll-section flex justify-center align-middle py-4 md:py-8"
         >
             <h2
-                className="description text-4xl md:text-7xl text-orange-400 font-nineteeneighty
+                className="description text-4xl md:text-4xl text-orange-400 
                 text-center"
             >
                 {title}

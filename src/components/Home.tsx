@@ -5,6 +5,8 @@ import IMAGES from '../images/Images';
 import EmailIcon from './EmailIcon';
 import PhoneIcon from './PhoneIcon';
 import MusicIcons from './MusicIcons';
+import EventType from './EventType';
+import { useEffect, useState } from 'react';
 
 const Home = () => {
     return (
@@ -13,6 +15,40 @@ const Home = () => {
                 <Hero />
                 <div className="stamp bg-yellow-300 text-black text-center text-sm md:text-xl py-2 mb-4 font-semibold">
                     Next session : Sunday 11 Feb from 5pm
+                </div>
+
+                <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div className="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">
+                                And an even wittier subheading.
+                            </p>
+                        </div>
+                        <div className="bg-light shadow-sm mx-auto"></div>
+                    </div>
+                    <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">
+                                And an even wittier subheading.
+                            </p>
+                        </div>
+                        <div className="bg-dark shadow-sm mx-auto"></div>
+                    </div>
+                </div>
+                {/* The types */}
+                <div className="row align-items-md-stretch">
+                    <EventType
+                        id="showcase"
+                        title="The Showcase"
+                        style={{ bg: 'dark', text: 'white' }}
+                    />
+                    <EventType
+                        id="jam"
+                        title="The Jam"
+                        style={{ bg: 'light', text: 'black' }}
+                    />
                 </div>
                 <section className="main md:w-8/12 md:mx-auto  text-gray-100 bg-gray-950">
                     <Welcome />
