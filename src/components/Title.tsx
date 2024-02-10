@@ -8,11 +8,11 @@ const Title: React.FC<TitleProps> = (props) => {
     return (
         <section
             id={id}
-            className="scroll-section flex justify-center align-middle py-4 md:py-8"
+            className="scroll-section flex justify-center align-middle py- md:py-8"
         >
             <h2
-                className="description text-4xl md:text-4xl text-orange-400 
-                text-center"
+                className="description text-4xl md:text-5xl text-orange-400 
+                text-center font-nineteeneighty"
             >
                 {title}
             </h2>
