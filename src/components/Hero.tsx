@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <section className="card-bg bg-blend-darken border-b-2 border-double border-b-orange-700">
+        <section className="hero-bg bg-blend-darken border-b-2 border-double border-b-orange-700">
             <h1
                 className="hero-title text-white tracking-wider
              hover:text-orange-500 font-semibold text-center body-font font-nineteeneighty max65 bg-gray-900 bg-opacity-90"
