@@ -1,5 +1,4 @@
 import MusicIcons from './MusicIcons';
-import IMAGES from '../images/Images';
 
 const Welcome = () => (
     <>

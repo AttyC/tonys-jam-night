@@ -1,7 +1,7 @@
 interface TitleProps {
     id?: string;
     title: string;
-    colour: string;
+    colour?: string;
 }
 
 const Title: React.FC<TitleProps> = (props) => {

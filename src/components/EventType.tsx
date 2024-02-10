@@ -55,7 +55,7 @@ const EventType: React.FC<EventTypeProps> = (props) => {
     return (
         <div className="col-md-6">
             <div className={`h-100 p-4 text-${style.text} bg-${style.bg}`}>
-                <Title id={id} title={title} colour={style.title}></Title>
+                <Title id={id} title={title} colour={style.title} />
                 <Text />
                 <MusicIcons />
             </div>
