@@ -1,11 +1,12 @@
 import MusicIcons from './MusicIcons';
+import IMAGES from '../images/Images';
 
 const Welcome = () => (
     <>
         <section className=" col-12 my-6 text:lg">
             <div className="flex flex-col md:flex-row">
                 <div className="col-md-9 py-6 ">
-                    <div className={`p-3 md:p-5 rounded-3`}>
+                    <div className={`p-4 md:p-5 rounded-3`}>
                         <h2 className="font-nineteeneighty  text-orange-400 text-4xl md:text-6xl flex flex-col tracking-wider">
                             Welcome!{' '}
                         </h2>{' '}
@@ -33,6 +34,12 @@ const Welcome = () => (
                         <p className="font-medium pb-2">
                             Cover and originals welcome - All styles welcome
                         </p>
+                        <p className="font-medium pb-2">
+                            <a href="#contact">
+                                {' '}
+                                Contact me to book your slot!
+                            </a>
+                        </p>
                         <p className="font-medium py-2">----</p>
                         <p className="font-semibold text-orange-400 md:lead">
                             {' '}
@@ -48,11 +55,11 @@ const Welcome = () => (
                 <div className="tony-bg col-12 col-md-3 py-6 "></div>
             </div>
         </section>
-        <section className=" col-12 my-6 text:lg bg-orange-700 ">
-            <div className="flex ">
-                <div className="col-md-3 bg-gray-100 flex justify-center py-6 band-bg"></div>
-                <div className="col-md-9  py-6 ">
-                    <div className={`p-3 md:px-5 rounded-3`}>
+        <section className=" col-12 my-6 text:lg ">
+            <div className="flex flex-col-reverse md:flex-row">
+                <div className="band-bg col-12 col-md-3 py-6 "></div>
+                <div className="col-md-9 py-6 date-time  ">
+                    <div className={`px-3 md:px-5 rounded-3`}>
                         <p>
                             <span className="font-semibold ">When:</span> Sunday
                             11th February 2024 from 5pm onwards

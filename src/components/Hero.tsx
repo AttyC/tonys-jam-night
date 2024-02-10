@@ -1,3 +1,5 @@
+import Stamp from './Stamp';
+
 const Hero = () => {
     return (
         <section className="hero-bg bg-blend-darken border-b-2 border-double border-b-orange-700">
@@ -8,10 +10,10 @@ const Hero = () => {
                 Bugle Horn <br />
                 Showcase and Jam
             </h1>
-            <p className="text-sm md:text-xl mt-4 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65">
+            <p className="text-sm md:text-md lg:text-xl mt-4 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65">
                 Showcase + Jam Session in Charlton, SE7
             </p>
-            <p className="text-sm md:text-xl mt-2 tracking-wider text-center uppercase text-gray-100 bg-gray-950 md:p-1 font-semibold max65"></p>
+            <Stamp />
         </section>
     );
 };

@@ -1,7 +1,7 @@
 const Nav = () => {
     return (
         <nav className="md:pr-6">
-            <ul className="flex text-sm md:text-lg uppercase tracking-wide">
+            <ul className="flex text-sm md:text-md lg:text-lg uppercase tracking-wide">
                 <li className="mx-4 hidden md:block">
                     <a href="/" className="nav-link text-white font-semibold">
                         Home

@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
     return (
         <section className="py-4 md:py-2">
             <Title id="contact" title="Contact"></Title>
-            <p className="px-4 font-medium">
+            <p className="px-4 font-medium md:text-center">
                 Contact me for more information on the Showcase or the Jam.
                 WhatsApp is best!
             </p>
@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
                             href="https://wa.me/447809073148?text=Hi!%20I'm%20interested%20in%20the%20Bugle%20Horn%20jam%20event%20."
                         >
                             <img
-                                src={IMAGES.whatsApp}
+                                src={IMAGES.whatsAppGreen}
                                 alt="Chat on WhatsApp"
                                 className="w-56 md:w-44"
                             />

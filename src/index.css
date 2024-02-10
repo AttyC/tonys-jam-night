@@ -46,12 +46,13 @@
 }
 a {
     font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
+    /* color: #646cff; */
+    color: #ffcc59;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: rgb(249 115 22);
+    color: #646cff;
     text-decoration: underline;
 }
 html,
@@ -132,15 +133,15 @@ input:focus {
     outline: 4px auto rgb(234 88 12);
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
-        /* color: #213547; */
+
         background-color: #ffffff;
     }
     button {
         background-color: #f9f9f9;
     }
-}
+} */
 
 .filter {
     display: flex;
@@ -196,11 +197,13 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
+    position: relative;
     @media only screen and (min-width: 768px) {
         height: 60vh;
     }
@@ -230,10 +233,11 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
-    /* @media only screen and (min-width: 768px) {
-        height: 60vh;
-    } */
+    min-height: 50vh;
+    @media only screen and (min-width: 768px) {
+        height: auto;
+        min-height: 30vh;
+    }
 }
 
 .img-divider {
@@ -262,46 +266,72 @@ label {
 .hero-title {
     font-size: 2.75rem;
     line-height: 1.35;
-
-    @media only screen and (min-width: 768px) {
-        font-size: 4rem;
-        max-width: 45%;
-    }
+    background: url(/img/dark-bg-splash.png) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: max-content;
     @media only screen and (min-width: 1024px) {
-        font-size: 5rem;
+        font-size: 4.25rem;
         max-width: 45%;
     }
 }
 .font-nineteeneighty {
     letter-spacing: 4px;
 }
+.event-type {
+    background: url(/img/bright-bg-splash.png) center no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    background-position-y: 40%;
+}
+
 .date-time {
-    width: fit-content;
-    margin: auto;
+    /* background: url(/img/dark-bg-splash.png) center no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    background-position-x: 40%; */
+    /* background-color: #222529;
+     */
+    /* background-color: white; */
 }
-
 .stamp {
-    /* transform: rotate(12deg);
-    color: yellow;
-    font-size: 23rem;
-    font-weight: 700;
-    border: 0.25rem solid yellow;
-    display: inline-block;
-    padding: 0.25rem 1rem;
-    text-transform: uppercase;
-    border-radius: 1rem;
-    font-family: 'Courier';
-    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-    -webkit-mask-size: 944px 604px;
-    mix-blend-mode: multiply; */
-
-    /* color: white;
-    font-size: 3rem;
-
-    background: url(/img/stamp-rect.png) no-repeat;
-    height: 400px;
-
-    background-size: contain;
-    transform: translate(4rem, 24rem) rotate(-12deg);
-    position: fixed; */
+    background: url(/img/messy.png) center no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    padding: 5rem;
+    /* height: 4rem; */
 }
+/* .stamp {
+    font-family: 'Courier';
+
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    padding: 0;
+    width: 11rem;
+    height: 6rem;
+
+    @media only screen and (min-width: 1024px) {
+
+        bottom: 4.5rem;
+        left: 22rem;
+        width: 14rem;
+        height: 6rem;
+    }
+    img {
+        filter: brightness(1.1);
+    }
+    p {
+        font-size: 1.15rem;
+        transform: translate(1.5rem, 3.8rem) rotate(-6deg);
+        position: absolute;
+        z-index: 1;
+        @media only screen and (min-width: 1024px) {
+            transform: translate(2.5rem, 4rem) rotate(-6deg);
+        }
+    }
+} 
+*/
