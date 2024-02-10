@@ -197,7 +197,7 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,6 +206,7 @@ label {
     position: relative;
     @media only screen and (min-width: 768px) {
         height: 60vh;
+        background-attachment: fixed;
     }
 }
 
