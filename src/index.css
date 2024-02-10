@@ -197,7 +197,7 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    /* background-attachment: fixed; */
+    background-attachment: unset;
     display: flex;
     flex-direction: column;
     justify-content: center;
