@@ -74,13 +74,6 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #110327;
-    /* background-color: #281e15;
-    background: linear-gradient(
-        63deg,
-        rgba(0, 0, 0, 1) 39%,
-        rgba(29, 28, 22, 1) 66%,
-        rgba(34, 29, 23, 0.9458377100840336) 94%
-    ); */
 }
 
 header {
@@ -198,7 +191,7 @@ label {
     max-width: 28rem;
 }
 
-.card-bg {
+.hero-bg {
     background-image: url(/img/tonys-drums-overlay.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,10 +200,40 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
     @media only screen and (min-width: 768px) {
         height: 60vh;
     }
+}
+
+.tony-bg {
+    /* background-image: url(/img/tony-mike-drummer.png); */
+    background-image: url(/img/tony-drums.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    @media only screen and (min-width: 768px) {
+        height: auto;
+    }
+}
+.band-bg {
+    background-image: url(/img/band_singers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* @media only screen and (min-width: 768px) {
+        height: 60vh;
+    } */
 }
 
 .img-divider {
@@ -237,7 +260,7 @@ label {
     max-width: 65%;
 }
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     line-height: 1.35;
 
     @media only screen and (min-width: 768px) {

@@ -5,12 +5,12 @@ import IMAGES from '../images/Images';
 
 const Contact: React.FC = () => {
     return (
-        <>
+        <section className="py-4 md:py-2">
             <Title id="contact" title="Contact"></Title>
-            <h3 className="text-center font-medium">
+            <p className="px-4 font-medium">
                 Contact me for more information on the Showcase or the Jam.
-                <br /> I prefer WhatsApp as it's quicker!{' '}
-            </h3>
+                WhatsApp is best!
+            </p>
             <section className="p-8 text-lg">
                 <ul className="flex flex-col align-middle md:justify-center md:flex-row">
                     <li className="py-2 flex justify-center">
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
                     </li>
                 </ul>
             </section>
-        </>
+        </section>
     );
 };
 
