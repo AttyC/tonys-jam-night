@@ -197,7 +197,6 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-attachment: unset;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,7 +267,6 @@ label {
     font-size: 2.75rem;
     line-height: 1.35;
     background: url(/img/dark-bg-splash.png) center no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     width: max-content;
     @media only screen and (min-width: 1024px) {
