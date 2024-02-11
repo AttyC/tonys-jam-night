@@ -224,8 +224,24 @@ label {
         height: auto;
     }
 }
-.band-bg {
+.singers-bg {
     background-image: url(/img/band_singers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    @media only screen and (min-width: 768px) {
+        height: auto;
+        min-height: 30vh;
+    }
+}
+
+.band-bg {
+    background-image: url(/img/tony-mike-drummer.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;

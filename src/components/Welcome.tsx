@@ -56,8 +56,8 @@ const Welcome = () => (
         </section>
         <section className=" col-12 my-6 text:lg ">
             <div className="flex flex-col-reverse md:flex-row">
-                <div className="band-bg col-12 col-md-3 py-6 "></div>
-                <div className="col-md-9 py-6 date-time  ">
+                <div className="singers-bg col-12 col-md-3 py-6 "></div>
+                <div className="col-md-6 py-6 date-time  ">
                     <div className={`px-3 md:px-5 rounded-3`}>
                         <p>
                             <span className="font-semibold ">When:</span> Sunday
@@ -83,6 +83,7 @@ const Welcome = () => (
                         </p>
                     </div>
                 </div>
+                <div className="band-bg col-12 col-md-3 py-6 "></div>
             </div>
         </section>{' '}
     </>
