@@ -301,53 +301,13 @@ label {
     background-position-y: 40%;
 }
 
-.date-time {
-    /* background: url(/img/dark-bg-splash.png) center no-repeat;
-    background-size: cover;
-    padding: 2rem;
-    background-position-x: 40%; */
-    /* background-color: #222529;
-     */
-    /* background-color: white; */
-}
 .stamp {
     background: url(/img/messy.png) center no-repeat;
+    /* background: url(/img/bright-bg-splash.png) center no-repeat; // orange */
     background-size: cover;
     background-position-y: 40%;
     width: auto;
     position: absolute;
     bottom: 0;
     padding: 5rem;
-    /* height: 4rem; */
 }
-/* .stamp {
-    font-family: 'Courier';
-
-    position: absolute;
-    bottom: 0;
-    right: 1rem;
-    padding: 0;
-    width: 11rem;
-    height: 6rem;
-
-    @media only screen and (min-width: 1024px) {
-
-        bottom: 4.5rem;
-        left: 22rem;
-        width: 14rem;
-        height: 6rem;
-    }
-    img {
-        filter: brightness(1.1);
-    }
-    p {
-        font-size: 1.15rem;
-        transform: translate(1.5rem, 3.8rem) rotate(-6deg);
-        position: absolute;
-        z-index: 1;
-        @media only screen and (min-width: 1024px) {
-            transform: translate(2.5rem, 4rem) rotate(-6deg);
-        }
-    }
-} 
-*/
