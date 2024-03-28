@@ -53,7 +53,7 @@ const EventType: React.FC<EventTypeProps> = (props) => {
     const { id, title, style } = props;
     const Text = id === 'showcase' ? ShowcaseText : JamText;
     return (
-        <div className="col-md-6">
+        <div className="col-md-6  w3-animate-opacity">
             <div className={`h-100 p-4 text-${style.text} bg-${style.bg}`}>
                 <Title id={id} title={title} colour={style.title} />
                 <Text />

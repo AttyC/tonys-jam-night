@@ -306,7 +306,7 @@ label {
     /* background: url(/img/bright-bg-splash.png) center no-repeat; // orange */
     background-size: cover;
     background-position-y: 40%;
-    width: auto;
+    width: fit-content;
     position: absolute;
     bottom: 0;
     padding: 5rem;
