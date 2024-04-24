@@ -61,7 +61,7 @@ const Welcome = () => (
                     <div className={`px-3 md:px-5 rounded-3`}>
                         <p>
                             <span className="font-semibold ">When:</span> Sunday
-                            14th April '24 from 5pm onwards
+                            12th May '24 from 5pm onwards
                         </p>
                         <p className="py-2">
                             {' '}
