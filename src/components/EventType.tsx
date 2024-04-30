@@ -4,6 +4,8 @@ import Title from './Title';
 interface EventTypeProps {
     id?: string;
     title: string;
+    img: string;
+    row: string;
     style: { bg: string; text: string; title: string };
 }
 
@@ -50,15 +52,25 @@ const JamText = () => (
 );
 
 const EventType: React.FC<EventTypeProps> = (props) => {
-    const { id, title, style } = props;
+    const { id, title, style, img, row } = props;
+
     const Text = id === 'showcase' ? ShowcaseText : JamText;
+
     return (
-        <div className="col-md-6  w3-animate-opacity">
-            <div className={`h-100 p-4 text-${style.text} bg-${style.bg}`}>
-                <Title id={id} title={title} colour={style.title} />
-                <Text />
-                <MusicIcons />
+        <div
+            className={` flex flex-col md:${row} align-items-md-stretch  
+        border-t-2 border-double  border-orange-400 w3-animate-opacity`}
+        >
+            <div className="col-12 col-md-7 w3-animate-opacity ">
+                <div
+                    className={`h-100  p-8 px-4 text-${style.text} bg-${style.bg}`}
+                >
+                    <Title id={id} title={title} colour={style.title} />
+                    <Text />
+                    <MusicIcons />
+                </div>
             </div>
+            <div className={`${img}  col-12 col-md-5 py-6`}></div>
         </div>
     );
 };

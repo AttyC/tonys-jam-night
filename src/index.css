@@ -106,6 +106,7 @@ footer {
 
 span.icons {
     display: block;
+    font-size: 2rem;
 }
 
 button {
@@ -234,9 +235,11 @@ label {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
+    /* display: none; */
     @media only screen and (min-width: 768px) {
         height: auto;
         min-height: 30vh;
+        display: block;
     }
 }
 
@@ -280,13 +283,13 @@ label {
     max-width: 65%;
 }
 .hero-title {
-    font-size: 2.75rem;
+    font-size: 3.25rem;
     line-height: 1.35;
     background: url(/img/dark-bg-splash.png) center no-repeat;
     background-size: cover;
     width: max-content;
     @media only screen and (min-width: 1024px) {
-        font-size: 4.25rem;
+        font-size: 5rem;
         max-width: 45%;
         background-attachment: fixed;
     }
@@ -305,9 +308,24 @@ label {
     background: url(/img/messy.png) center no-repeat;
     /* background: url(/img/bright-bg-splash.png) center no-repeat; // orange */
     background-size: cover;
-    background-position-y: 40%;
     width: fit-content;
+}
+.stamp-position {
+    background-position-y: 40%;
     position: absolute;
     bottom: 0;
     padding: 5rem;
+}
+
+@keyframes wipe-enter {
+    0% {
+        transform: scale(0, 0.025);
+    }
+    50% {
+        transform: scale(1, 0.025);
+    }
+}
+
+.wipe-aniation {
+    animation: wipe-enter 1s 1;
 }

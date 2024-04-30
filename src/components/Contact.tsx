@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
                     <li className="py-2 flex justify-center">
                         <a
                             aria-label="Chat on WhatsApp"
-                            className="whatsApp"
+                            className="whatsApp transition ease-in-out hover:-translate-y-1 hover:scale-110"
                             target="_blank"
                             href="https://wa.me/447809073148?text=Hi!%20I'm%20interested%20in%20the%20Bugle%20Horn%20jam%20event%20."
                         >
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                     <li className=" py-2 md:ml-4 flex justify-center">
                         <PhoneIcon />
                         <a
-                            className="font-semibold text-gray-100 self-center px-2"
+                            className="font-semibold text-gray-100 self-center px-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
                             href="tel:447809073148"
                         >
                             Phone
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
                         <a
                             aria-label="Email"
                             href="mailto:tonydooley59@gmail.com"
-                            className="font-semibold text-gray-100 self-center px-2"
+                            className="font-semibold text-gray-100 self-center px-2 transition ease-in-out hover:-translate-y-1 hover:scale-110"
                         >
                             {' '}
                             Email{' '}

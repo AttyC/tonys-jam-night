@@ -2,10 +2,10 @@ import Stamp from './Stamp';
 
 const Hero = () => {
     return (
-        <section className="hero-bg bg-blend-darken border-b-2 border-double border-b-orange-700">
+        <section className="hero-bg bg-blend-darken border-b-2 border-double border-b-orange-700 w3-animate-opacity">
             <h1
-                className="hero-title text-white tracking-wider
-             hover:text-orange-500 font-semibold text-center body-font font-nineteeneighty max65 bg-gray-900 bg-opacity-90"
+                className="hero-title text-white tracking-wider  w3-animate-opacity 
+             hover:text-orange-400 font-semibold text-center body-font font-nineteeneighty max65 bg-gray-900 bg-opacity-90"
             >
                 Bugle Horn <br />
                 Showcase and Jam
