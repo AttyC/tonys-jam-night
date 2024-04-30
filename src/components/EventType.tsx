@@ -58,7 +58,7 @@ const EventType: React.FC<EventTypeProps> = (props) => {
 
     return (
         <div
-            className={` flex flex-col md:${row} align-items-md-stretch  
+            className={`${row} align-items-md-stretch  
         border-t-2 border-double  border-orange-400 w3-animate-opacity`}
         >
             <div className="col-12 col-md-7 w3-animate-opacity ">

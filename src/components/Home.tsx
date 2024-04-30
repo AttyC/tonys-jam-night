@@ -14,7 +14,7 @@ const Home = () => {
                     id="showcase"
                     title="The Showcase"
                     img="band-bg"
-                    row="flex-row"
+                    row="flex flex-col md:flex-row"
                     style={{ bg: 'dark', text: 'white', title: 'white' }}
                 />
 
@@ -24,7 +24,7 @@ const Home = () => {
                     id="jam"
                     title="The Jam"
                     img="singers-bg"
-                    row="flex-row-reverse"
+                    row="flex flex-col md:flex-row-reverse"
                     style={{ bg: 'light', text: 'black', title: 'white' }}
                 />
                 {/* </div> */}
