@@ -59,8 +59,8 @@ const Welcome = () => (
         <section className=" col-12 my-6 text:lg text-center border-t-2 border-double border-orange-400 px-8 py-10">
             <div className={`px-1 md:px-5 rounded-3`}>
                 <p>
-                    <span className="font-semibold">When:</span> Sunday 12th May
-                    '24 from 5pm onwards
+                    <span className="font-semibold">When:</span> Next session to
+                    be announced
                 </p>
                 <p className="py-2">
                     {' '}

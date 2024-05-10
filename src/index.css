@@ -303,7 +303,16 @@ label {
     padding: 2rem;
     background-position-y: 40%;
 }
-
+.alert {
+    background: url(/img/bright-bg-splash.png) center no-repeat;
+    background-size: cover;
+    padding: 8rem;
+    background-position-y: 40%;
+    transform: rotate(-11deg);
+    @media only screen and (min-width: 1024px) {
+        padding: 15rem;
+    }
+}
 .stamp {
     background: url(/img/messy.png) center no-repeat;
     /* background: url(/img/bright-bg-splash.png) center no-repeat; // orange */
