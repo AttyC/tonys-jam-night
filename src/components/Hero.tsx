@@ -2,13 +2,13 @@ import Stamp from './Stamp';
 
 const Hero = () => {
     return (
-        <section className="hero-bg bg-blend-darken  border-b-2 border-double border-b-orange-700 w3-animate-opacity">
-            <div className="alert w3-animate-opacity text-white text-center text-lg md:text-md lg:text-xl py-2 mb-4 font-semibold">
-                <p>POSTPONED for a short while</p>
-            </div>{' '}
+        <section className="hero-bg bg-blend-darken border-b-2 border-double border-b-orange-700 w3-animate-opacity">
+            {/* <div className=" w3-animate-opacity text-red-600 text-center text-xl md:text-md lg:text-xl py-2 mb-4 font-semibold bounce">
+                <p>It's Back!!</p>
+            </div>{' '} */}
             <h1
-                className="hero-title text-white tracking-wider  w3-animate-opacity 
-             hover:text-orange-400 font-semibold text-center body-font font-nineteeneighty max65 bg-gray-900 bg-opacity-90"
+                className="hero-title text-white tracking-wider w3-animate-opacity 
+                hover:text-orange-400 font-semibold text-center body-font font-nineteeneighty max65 bg-gray-900 bg-opacity-90 rise-up"
             >
                 Bugle Horn <br />
                 Showcase and Jam
